@@ -1,5 +1,5 @@
 FROM openjdk
-WORKIR /application
+WORKDIR /application
 COPY dai.java .
 RUN javac dai.java
 CMD java dai
